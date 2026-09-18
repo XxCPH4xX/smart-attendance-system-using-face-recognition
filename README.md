@@ -11,11 +11,11 @@ An AI-powered attendance management system that automates attendance tracking us
 - **Unknown Face Detection**: Identifies and labels unrecognized individuals
 - **Simple Registration**: Add new users by placing face images in the `Faces/` folder
 
-## Demo
+## How It Works
 
-1. System启动后自动打开摄像头
-2. 检测到已注册的人脸时，显示绿色边框和姓名
-3. 自动将出勤记录写入 `Attendance.csv`
+1. The webcam opens automatically when the system starts
+2. When a registered face is detected, a green bounding box and name are displayed
+3. Attendance is automatically recorded in `Attendance.csv` with timestamp
 
 ## Project Structure
 
